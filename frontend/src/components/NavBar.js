@@ -3,7 +3,8 @@ import AppBar from '@material-ui/core/AppBar'
 import {Tabs, Tab } from '@material-ui/core'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8000/api'
+//const API_URL = 'http://localhost:8000/api'
+const API_URL = 'http:// Redix8.pythonanywhere.com/api'
 
 export default class NavBar extends Component {
     state = {
