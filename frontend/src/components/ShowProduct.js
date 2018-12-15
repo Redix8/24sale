@@ -13,7 +13,7 @@ export default class ShowProduct extends Component {
       <Grid item>
         <Card 
             className="card" 
-            style={{maxWidth:200}}
+            style={{width:160}}
         >
             <CardMedia 
                 component="img"
@@ -22,7 +22,7 @@ export default class ShowProduct extends Component {
                 image={this.props.url}              
             />
             <CardContent>
-                <Typography variant='subtitle1'>
+                <Typography variant='subtitle2'>
                     {this.props.name}
                 </Typography>
                 <Typography variant='body1'>

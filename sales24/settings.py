@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vsa@(sn3^ozk=8j_0ifbecut0-x=(xcgbi%f6z@sj!4y8kt81)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Redix8.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
