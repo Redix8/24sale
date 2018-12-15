@@ -5,8 +5,8 @@ import ShowProduct from './components/ShowProduct';
 import { Grid } from '@material-ui/core';
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8000/api'
-
+//const API_URL = 'http://localhost:8000/api'
+const API_URL = 'http://Redix8.pythonanywhere.com/api'
 
 class App extends Component {
   state={
