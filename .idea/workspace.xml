@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44524b39-a1a7-4d56-bff0-8f92a729789c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavBar.js" afterDir="false" />
-    </list>
+    <list default="true" id="44524b39-a1a7-4d56-bff0-8f92a729789c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,7 @@
     <session id="-988351048">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
@@ -131,8 +128,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="829" />
-    <option name="y" value="32" />
+    <option name="x" value="351" />
+    <option name="y" value="40" />
     <option name="width" value="1220" />
     <option name="height" value="988" />
   </component>
@@ -251,7 +248,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="829" y="32" width="1220" height="988" extended-state="0" />
+    <frame x="351" y="40" width="1220" height="988" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35344827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
