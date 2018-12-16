@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import AppBar from '@material-ui/core/AppBar' 
 import {Tabs, Tab } from '@material-ui/core'
-import axios from 'axios'
 
-//const API_URL = 'http://localhost:8000/api'
-const API_URL = 'http://Redix8.pythonanywhere.com/api'
 
 export default class NavBar extends Component {
     state = {
@@ -16,17 +13,6 @@ export default class NavBar extends Component {
         const {dataset:{store, sale}} = evt.currentTarget
         this.setState({value})
         this.props.onChange({store, sale})
-    }
-
-    getProducts=(evt)=>{
-        const {dataset: {store, sale}} = evt.currentTarget;
-        const url = `${API_URL}/${store}/${sale}`
-        axios.get(url).then(response=> {
-            this.props.onChange(response.data)
-          })
-          .catch(function (error) {
-            console.log(error);
-          })
     }
 
 
