@@ -21,7 +21,12 @@ export default class NavBar extends Component {
 
     return (
       <AppBar position='static' style={{marginBottom:20}}>
-          <Tabs value={value} onChange={this.handleChange} centered>
+          <Tabs 
+            value={value} 
+            onChange={this.handleChange}   
+            centered
+            scrollable
+            >
               <Tab label = 'CU 1+1' data-store='CU' data-sale='OPO'/>
               <Tab label = 'CU 2+1' data-store='CU' data-sale='TPO'/>
               <Tab label = 'CU 기타' data-store='CU' data-sale='OTR'/>
