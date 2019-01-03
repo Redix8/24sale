@@ -113,13 +113,18 @@ def getCU_products(driver, sale):
 
 
 def SV_itemLoading(driver):
+    i = 0
     while True:
         try:
             more_button = driver.find_element_by_css_selector('li.btn_more')
             more_button.click()
-            time.sleep(1)
+            print(i, "clicked")
+            i += 1
+            time.sleep(2)
         except NoSuchElementException:
             print("no more items")
+            break
+        if i >= 100:
             break
 
 
@@ -200,6 +205,7 @@ if __name__=='__main__':
     print("CU_OTR done")
 
     driver.get('http://www.7-eleven.co.kr/product/presentList.asp')
+    time.sleep(2)
     SV_itemLoading(driver)
     SV_OPO = getSV_products(driver, 'OPO')
     print("SV_OPO done")
