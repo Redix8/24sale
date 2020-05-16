@@ -5,7 +5,3 @@
 by using django and create-react-app.
 
 crawling data with python.
-
-service at:
-
-http://redix8.pythonanywhere.com
